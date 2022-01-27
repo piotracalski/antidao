@@ -3,6 +3,7 @@
   margin: 0;
   font-family: 'Major Mono Display', monospace;
   color: rgba(255, 255, 255, 0.3);
+  text-shadow: 0 0 1rem rgb(220, 220, 220);
 }
 
 html {
@@ -34,6 +35,43 @@ body, #root {
   background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(159,0,0,1) 100%);
 }
 
-header {
+.sharp {
+  text-shadow: none;
+}
+
+.text-white {
+  color: rgb(220, 220, 220);
+}
+
+.text-red {
+  color: red;
+}
+
+h1 {
   font-size: 15rem;
+  margin: 2rem 0;
+}
+
+.container-text {
+  text-align: center;
+}
+
+.text-standard {
+  font-size: 2rem;
+}
+
+.button {
+  background-color: rgb(220, 220, 220);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 3rem .1rem rgb(220, 220, 220);
+  transition: box-shadow .2s ease-out;
+}
+
+.button:hover {
+  box-shadow: 0 0 5rem .1rem rgb(220, 220, 220);
+}
+
+.text-box-standard {
+  padding: 1rem;
 }
