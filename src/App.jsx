@@ -17,8 +17,8 @@ const App = () => {
       <header>
         <div className='container-text'>
           <h1><span className='sharp text-white'>A</span>ntidAo</h1>
-          <button onClick={() => connectWallet("injected")} className="button text-box-standard">
-            <span className='sharp text-red text-standard'>connect your wallet</span>
+          <button onClick={() => connectWallet("injected")} className="button button-secondary text-box-standard">
+            connect your wallet
           </button>
         </div>
       </header>

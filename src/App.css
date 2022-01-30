@@ -61,16 +61,29 @@ h1 {
 }
 
 .button {
-  background-color: rgb(220, 220, 220);
-  background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgb(220, 220, 220) 100%);
   border: none;
   cursor: pointer;
-  box-shadow: 0 0 3rem .1rem rgb(220, 220, 220);
-  transition: box-shadow .2s ease-out;
+  padding: 1rem;
+  font-size: 2rem;
 }
 
-.button:hover {
-  box-shadow: 0 0 5rem .1rem rgb(220, 220, 220);
+
+.button-primary {
+  background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgb(220, 220, 220) 100%);
+  color: red;
+}
+
+.button-secondary {
+  background-color: transparent;
+  color: rgb(220, 220, 220);
+}
+
+.button-primary:hover {
+  text-shadow: .1rem .1rem rgba(230, 230, 230, 0.3);
+}
+
+.button-secondary:hover {
+  text-shadow: .1rem .1rem rgba(31, 31, 31, 0.3);
 }
 
 .text-box-standard {
